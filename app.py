@@ -22,7 +22,7 @@ model = load_model()
 content_data = load_content_data()
 
 # Streamlit UI
-st.title("Product Recommendation System")
+st.title("Content Recommendation System")
 search_term = st.text_input("Enter the product name:")
 top_k = st.slider("Number of recommendations:", 1, 10, 5)
 
